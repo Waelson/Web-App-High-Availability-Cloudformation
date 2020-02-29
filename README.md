@@ -9,7 +9,7 @@ Before you begin to use this repository, check you have installed AWS CLI in you
   <li>Create stack: <code>./create.sh &#60;your-stack-name&#62; &#60;cloudformation-script-yml-file&#62; &#60;parameter-file&#62;</code></li>
   <li>Update stack: <code>./update.sh &#60;your-stack-name&#62; &#60;cloudformation-script-yml-file&#62; &#60;parameter-file&#62;</code></li>
   <li>Note #1: Scripts must to be executed according to the following order: First, <code>networks.yml</code> responsable for creation all network configurations and last <code>servers.yml</code> to create EC2 instances and other resources associated to them.</li>
-  <li>Note 2#: If you need to change IP range, check <code>network-params.json</code> file to update configurations.</li>
+  <li>Note #2: If you need to change IP range, check <code>network-params.json</code> file to update configurations.</li>
 </ul>
 
 <h4>Main points architecture:</h4>
