@@ -1,6 +1,12 @@
 # Web Application Highly Available on AWS
 Template to creation web app infrastructure highly available. Infrastructure as code based on AWS Cloudformation.
 <br/>
+<h4>How use:</h4>
+Before you begin to use this repository, check you have installed AWS CLI in your machine. If you haven't installed, please consider to visit <a href="https://docs.aws.amazon.com/cli/latest/userguide/install-bundle.html">AWS CLI Site</a> for more informations.
+I created two shell script files to abstract all command to Cloudformation Service.
+<ul>
+
+</ul>
 <h4>Main points architecture:</h4>
 <ul>
   <li>All single points of failure eliminated. Remember, resources like Internet Gateway and Load Balancer are managed by AWS team.</li>
