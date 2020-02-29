@@ -6,5 +6,6 @@ Template to creation web app infrastructure highly available. Infrastructure as 
 
 <h4>Main Points</h4>
 <ul>
-  <li>Oi</li>
+  <li>I tried all single point of failures.</li>
+  <li>All EC2 instances are accessible just via load balancer. Note that all instances belong to private subnet isolating them all external traffic.</li>  
 </ul>
