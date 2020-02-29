@@ -3,7 +3,7 @@ Template to creation web app infrastructure highly available. Infrastructure as 
 <br/>
 <h4>Main points architecture:</h4>
 <ul>
-  <li>All single points of failure eliminated.</li>
+  <li>All single points of failure eliminated. Remenber, resources like Internet Gateway and Load Balancer are managed by AWS team.</li>
   <li>Included redundancy through Auto Scaling Group and database replication.</li>
   <li>All resources  are distributed between two availability zones. Do, we guarantee more availability to architecture.</li>
   <li>All EC2 instances are accessible just via load balancer. Note that all instances belong to private subnet isolating them all external traffic.</li>  
