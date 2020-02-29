@@ -6,7 +6,7 @@ Template to creation web app infrastructure highly available. Infrastructure as 
   <li>All single points of failure eliminated. Remember, resources like Internet Gateway and Load Balancer are managed by AWS team.</li>
   <li>Included redundancy through Auto Scaling Group and database replication.</li>
   <li>All resources  are distributed between two availability zones. So, we guarantee more availability to architecture.</li>
-  <li>All EC2 instances are accessible just via load balancer. Note that all instances belong to private subnet isolating them all external traffic.</li>  
+  <li>All EC2 instances are accessible just via load balancer. Note that all instances belong to private subnet, isolating them all external traffic.</li>  
   <li>Important Note: Script files don't create database. Therefore, I recommend you to create database through web console (RDS - Relational Database Service) and associate it your private subnet.</li>
 </ul>
 <h4>Solution diagram:</h4>
