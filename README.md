@@ -15,7 +15,7 @@ Before you begin to use this repository, check you have installed AWS CLI in you
 <h4>Main points architecture:</h4>
 <ul>
   <li>All single points of failure were eliminated. Remember, resources like Internet Gateway and Load Balancer are managed by AWS team.</li>
-  <li>Included redundancy through Auto Scaling Group and database replication.</li>
+  <li>Redundancy was included by Auto Scaling Group and Database Replication.</li>
   <li>All resources  are distributed between two availability zones. So, we guarantee more availability to architecture.</li>
   <li>All EC2 instances are accessible just via load balancer. Note that all instances belong to private subnet, isolating them all external traffic.</li>  
   <li>Important Note: Script files don't create database. Therefore, I recommend you to create database through web console (RDS - Relational Database Service) and associate it your private subnet.</li>
