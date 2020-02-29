@@ -3,6 +3,7 @@ Template to creation web app infrastructure highly available. Infrastructure as 
 <br/>
 <h4>How to use:</h4>
 Before you begin to use this repository, check you have installed AWS CLI in your machine. If you haven't installed it, please consider to visit <a href="https://docs.aws.amazon.com/cli/latest/userguide/install-bundle.html">AWS CLI Site</a> for more informations.
+<br/>
 <ul>
   <li>Into repository you will find two shell scripts files to create and update stack into Cloudformation. Use them to manipulate your Cloudformation stack or as reference to learning about Cloudformation commands using AWS CLI. </li>
   <li>Create stack: <code>./create.sh &#60;your-stack-name&#62; &#60;cloudformation-script-yml-file&#62; &#60;parameter-file&#62;</code></li>
@@ -10,7 +11,7 @@ Before you begin to use this repository, check you have installed AWS CLI in you
   <li>Note #1: Scripts must to be execute in following order: First, <code>networks.yml</code> responsable for creation all network configurations and last <code>servers.yml</code> to create EC2 instances and other resources associate it.</li>
   <li>Note 2#: If you need to change IP range, check <code>network-parameters.json</code> file to update configurations.</li>
 </ul>
-<br/>
+
 <h4>Main points architecture:</h4>
 <ul>
   <li>All single points of failure eliminated. Remember, resources like Internet Gateway and Load Balancer are managed by AWS team.</li>
