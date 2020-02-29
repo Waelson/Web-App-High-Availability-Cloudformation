@@ -5,7 +5,7 @@ Template to creation web app infrastructure highly available. Infrastructure as 
 Before you begin to use this repository, check you have installed AWS CLI in your machine. If you haven't installed it, please consider to visit <a href="https://docs.aws.amazon.com/cli/latest/userguide/install-bundle.html">AWS CLI Site</a> for more informations.
 <ul>
   <li>Into repository you will find two shell scripts files to create and update stack into Cloudformation. Use them to manipulate your Cloudformation stack or as reference to learning about Cloudformation commands using AWS CLI. </li>
-  <li>Creating stack: <code>./create.sh <your-stack-name> <cloudformation-script-yml-file> <parameter-file></code></li>
+  <li>Creating stack: <code>./create.sh &#60;your-stack-name&#62; &#60;cloudformation-script-yml-file&#62; &#60;parameter-file&#62;</code></li>
   <li></li>
 <ul>
 
