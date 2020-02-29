@@ -6,12 +6,9 @@ Before you begin to use this repository, check you have installed AWS CLI in you
 <ul>
   <li>Into repository you will find two shell scripts files to create and update stack into Cloudformation. Use them to manipulate your Cloudformation stack or as reference to learning about Cloudformation commands using AWS CLI. </li>
   <li>Creating stack: <code>./create.sh &#60;your-stack-name&#62; &#60;cloudformation-script-yml-file&#62; &#60;parameter-file&#62;</code></li>
-  <li></li>
-<ul>
-
-<ul>
-
+  <li>Update stack: <code>./update.sh &#60;your-stack-name&#62; &#60;cloudformation-script-yml-file&#62; &#60;parameter-file&#62;</code></li>
 </ul>
+
 <h4>Main points architecture:</h4>
 <ul>
   <li>All single points of failure eliminated. Remember, resources like Internet Gateway and Load Balancer are managed by AWS team.</li>
