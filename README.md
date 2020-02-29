@@ -1,5 +1,5 @@
 # Web Application Highly Available on AWS
-Template to creation web app infrastructure highly available. Infrastructure as code based in AWS Cloudformation.
+Template to creation web app infrastructure highly available. Infrastructure as code based on AWS Cloudformation.
 <br/>
 <h4>Main points architecture:</h4>
 <ul>
