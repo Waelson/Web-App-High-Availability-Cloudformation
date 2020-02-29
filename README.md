@@ -10,7 +10,7 @@ Before you begin to use this repository, check you have installed AWS CLI in you
   <li>Note #1: Scripts must to be execute in following order: First, <code>networks.yml</code> responsable for creation all network configurations and last <code>servers.yml</code> to create EC2 instances and other resources associate it.</li>
   <li>Note 2#: If you need to change IP range, check <code>network-parameters.json</code> file to update configurations.</li>
 </ul>
-
+<br/>
 <h4>Main points architecture:</h4>
 <ul>
   <li>All single points of failure eliminated. Remember, resources like Internet Gateway and Load Balancer are managed by AWS team.</li>
