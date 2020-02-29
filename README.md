@@ -10,10 +10,11 @@ Before you begin to use this repository, check you have installed AWS CLI in you
   <li>Update stack: <code>./update.sh &#60;your-stack-name&#62; &#60;cloudformation-script-yml-file&#62; &#60;parameter-file&#62;</code></li>
   <li>Note #1: Scripts must to be executed according to the following order: First, <code>networks.yml</code> responsable for creation all network configurations and last <code>servers.yml</code> to create EC2 instances and other resources associated to them.</li>
   <li>Note #2: If you need to change IP range, check <code>network-params.json</code> file to update configurations.</li>
+  <li>Note #3: You will need to create a Key Pair through web console. Edit <code>servers.yml</code> file and update value of the attribute KeyName in the resource AWS::AutoScaling::LaunchConfiguration.</li>
 </ul>
 
 <h4>Main points architecture:</h4>
-<ul>
+<ul>.
   <li>All single points of failure were eliminated. Remember, resources like Internet Gateway and Load Balancer are managed by AWS team.</li>
   <li>Redundancy was included by Auto Scaling Group and Database Replication.</li>
   <li>All resources  are distributed between two availability zones. So, we guarantee more availability to architecture.</li>
