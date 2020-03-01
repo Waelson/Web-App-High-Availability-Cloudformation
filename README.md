@@ -1,4 +1,4 @@
-# Infrastructure Highly Available to Web Application on AWS
+# High Availability to Web Application on AWS
 Template to create infrastructure highly available to web app based on AWS Cloudformation.
 <br/>
 <h4>How to use:</h4>
